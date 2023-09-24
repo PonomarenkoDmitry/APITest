@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "497A1585-A87C-4BEB-BCD4-88943EF628EF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "646AF483-B165-40CE-85BD-321C0C08FA9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APITestApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "646AF483-B165-40CE-85BD-321C0C08FA9C - 2728310c0c601150"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APITestApp.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "APITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrijponomarenko/iOS%20Developer%20/TestTask/BalinaSoft/APITestApp/APITestApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "646AF483-B165-40CE-85BD-321C0C08FA9C - baa06b4349735dd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (APITestApp.Page) -&gt; () in APITestApp.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "APITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrijponomarenko/iOS%20Developer%20/TestTask/BalinaSoft/APITestApp/APITestApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "792370CB-D3C3-486E-A435-4CEEF09D6DB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APITestApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "792370CB-D3C3-486E-A435-4CEEF09D6DB2 - 2728310c0c601150"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APITestApp.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "APITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrijponomarenko/iOS%20Developer%20/TestTask/BalinaSoft/APITestApp/APITestApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "792370CB-D3C3-486E-A435-4CEEF09D6DB2 - baa06b4349735dd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (APITestApp.Page) -&gt; () in APITestApp.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "APITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitrijponomarenko/iOS%20Developer%20/TestTask/BalinaSoft/APITestApp/APITestApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
