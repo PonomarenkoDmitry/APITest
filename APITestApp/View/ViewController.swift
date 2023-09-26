@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet var tableView: UITableView!
     
     var totalElements = Int()
+    var totalPages = Int()
     var content = [Content]()
     var apiManager = APIManager()
     var counter = 0
@@ -23,6 +24,7 @@ class ViewController: UIViewController {
         
         apiManager.fetchData(URL: "https://junior.balinasoft.com/api/v2/photo/type?page=0") { result in
             DispatchQueue.main.async {
+                self.totalPages = result.totalPages
                 self.totalElements = result.totalElements
                 self.content.append(contentsOf: result.content)
                 self.tableView.reloadData()
@@ -72,23 +74,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if indexPath.row == (self.content.count - 2) && content.count != totalElements {
-            switch counter {
-            case 0:
+           
+            if counter != totalPages {
                 counter += 1
-            case 1:
-                counter += 1
-            case 2:
-                counter += 1
-            case 3:
-                counter += 1
-            case 4:
-                counter += 1
-            case 5:
-                counter += 1
-            case 6:
-                counter += 1
-            default:
-                break
+            } else {
+                tableView.tableFooterView?.isHidden = true
             }
            
             apiManager.fetchData(URL: "https://junior.balinasoft.com/api/v2/photo/type?page=\(counter)") { result in
